@@ -1,0 +1,144 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience and Skills</title>
+    <style>
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.Row {
+    /* height: 200px; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    /* padding: 10px;
+    border: 1px solid #ccc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+   
+    position: relative;
+    padding-top: 8%;
+    padding-bottom: 8%; /* Creates a perfect square */
+    background-color: #ccc;
+    border: 1px solid #aaa;
+}
+ul{
+        overflow: auto;
+    }
+/* ul li{
+        white-space: nowrap;
+        word-wrap: break-word;
+    } */
+.col ul h2{
+    position: absolute;
+}
+.four > ul{
+   /* transform: translateX(-105px); */
+    position: absolute;
+   left: 25.4%;
+  
+}
+.four > h2{ 
+   /* transform: translateX(-170px); */
+   position: absolute;
+   right: 83.2%;
+} 
+.four{
+    background-color: skyblue;
+    /* position: relative; */
+}
+.three{
+    background-color: palevioletred;
+}
+.two{
+    background-color: peru;
+}
+.one{
+    background-color: plum;
+}
+
+@media (min-width: 1px) and (max-width: 870px){
+    .container{
+        grid-template-columns: 1fr;
+        flex-wrap: nowrap;
+    }
+    .col ul{
+        overflow: auto;
+        left: 20%;
+    }
+    .col ul li{
+        white-space: nowrap;
+        word-wrap: break-word;
+    }
+    .col h2{
+        left: 1%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Row">
+            <div class="col one">
+                <h2>Experience:</h2>
+                <ul><li>2 months of experience as Software Intern at Carelabz</li>
+                    <li>Where I collaborated with a team of developers to create web applications using Microsofts's PowerApps tool and implement new features.</li>
+                    <li>Assisted in troubleshooting and debugging issues</li>
+                    <li>Communicated progress and challenges effectively during daily stand-up meetings.</li></ul>
+            </div>
+            <div class="col two">
+                <h2>Projects:</h2>
+                <ul>
+                    <li>Starbucks Landing Page: Developed using HTML5, CSS3, and JavaScript to replicate the look and feel of the Starbucks website.</li>
+                    <li>Simple Calculator: Built with HTML and CSS, this calculator allows users to perform basic calculations within their web browser.</li>
+                    <li>Floating Images Web Page: Created an interactive web page with floating images using HTML and CSS animations to add visual interest.</li>
+                    <li>Facilitator for the Blind: Utilizing Raspberry Pi and Python, I developed a web-based tool that helps visually impaired individuals navigate online shopping platforms.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="col three">
+                <h2>My technical skills include:</h2>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript: Proficient in building responsive and interactive web interfaces.</li>
+                        <li>C, C++, Java, DotNet, Mysql, Python: Experience with these programming languages from my academic background.</li>
+                        <li>Git: Familiarity with version control systems for collaborative development.</li>
+                        <li>Problem-solving: Strong analytical and critical thinking abilities to overcome coding challenges.</li>
+                    </ul>
+            </div>
+            <div class="col four">
+                <h2>Soft skills:</h2>
+                    <ul>
+                        <li>Communication</li>
+                        <li> Collaboration </li>
+                        <li> Problem-Solving</li>
+                        <li>Adaptability and Flexibility</li>
+                        <li>Time Management</li>
+                        <li>Leadership</li>
+                        <li> Creativity</li>
+                        <li>Critical Thinking</li>
+                        <li> Interpersonal Skills</li>
+                        <li> Conflict Resolution</li>
+                        <li> Emotional Intelligence</li>
+                        <li> Networking</li>
+                        <li> Presentation Skills</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+    </html>
